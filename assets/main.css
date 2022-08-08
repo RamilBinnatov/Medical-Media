@@ -1,0 +1,230 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+    #header{
+   background-color: #047eb3;
+   padding-top:30px; 
+   padding-bottom: 15px;
+   position: relative;
+}
+#header::after{
+    content: '';
+    position: absolute;
+    top: 63%;
+    left: 0%;
+    background-color: #fff;
+    width: 100%;
+    height: 1px;
+    filter:opacity(20%);
+    z-index: 1;
+}
+
+#header .all-header .up-header {
+  
+  display: flex;
+  justify-content:space-between;
+  
+
+}
+
+#header .all-header .up-header .mid-up-header{
+    display: flex;
+    
+    
+}
+#header .all-header .up-header .mid-up-header .mid-box{
+   display: flex;
+   align-items: center;
+   margin-right: 45px;
+   cursor: pointer;
+   
+}
+#header .all-header .up-header .mid-up-header .mid-box p{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 5px;
+
+}
+#header .all-header .up-header .right-up-header{
+    display: flex;
+    align-items: center;
+}
+#header .all-header .up-header .right-up-header input{
+    width: 200px;
+    padding: 15px 7px;
+    border-radius: 12px;
+    border: none;
+    outline: 0;
+}
+#header .all-header .up-header .right-up-header a{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 20px;
+}
+#header .all-header .down-header ul{
+    list-style: none;
+    display: flex;
+    padding-top: 35px;
+}
+#header .all-header .down-header ul li{
+margin-right: 50px;
+
+}
+#header .all-header .down-header ul li a{
+color: #fff;
+font-size: 16px;
+}
+#first-news{
+    margin-top: 50px;
+}
+#first-news .up-news {
+    display: flex;
+    align-items: center;
+}
+
+#first-news .up-news .up-news-head{
+    width: 150px;
+}
+#first-news .up-news .up-news-head h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #00415c;
+    width: 100%;
+}
+#first-news .up-news .up-news-box{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+#first-news .up-news .up-news-box .box{
+   padding: 25px;
+   background-color: #d7eaf3;
+   margin-right: 20px;
+   width: 33.33%;
+   border: none;
+   border-radius: 16px;
+}
+#first-news .up-news .up-news-box .box p{
+    color: #4282b7;
+    font-size: 16px;
+}
+
+#second-news .first-news-down{
+    display: flex;
+    align-items: center;
+   
+}
+#second-news .img-news{
+    display: flex;
+    width: 75%;
+    margin-top: 35px;
+   
+}
+#second-news .img-news .left-img{
+    width: 75%;
+    height: 400px;
+}
+#second-news .img-news .left-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: contain;
+  
+   
+}
+#second-news .img-news .right-img{
+    width: 25%;
+    height: 400px;
+    margin-left: 30px;
+    
+}
+#second-news .img-news .right-img .up-img{
+    height: 45%;
+    width: 100%;
+   
+   
+}
+#second-news .img-news .right-img .up-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+   
+}
+#second-news .img-news .right-img .down-img{
+    height: 45%;
+    width: 100%;
+    margin-top: 35px;
+}
+#second-news .img-news .right-img .down-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+   
+}
+#second-news .latest-news{
+    width: 25%;
+    border: 1px solid #047eb3;
+    border-radius: 8px;
+    padding: 15px 10px;
+    margin-left: 30px;
+    height: 370px;
+    margin-top: 30px;
+    overflow-y: scroll;
+    color: #4282b7;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+#second-news .latest-news .latest-news-head h1{
+    color: #047eb3;
+    font-weight: 400;
+}
+#second-news .latest-news .latest-news-content .news-box{
+    border: 1px solid #047eb3;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 20px;
+    
+    
+}
+#second-news .latest-news .latest-news-content .news-box p{
+    font-size: 12px;
+    
+}
+
+#ico-section{
+    
+    background-color: #00415c;
+    width: 50px;
+    
+    padding: 20px 0px;
+    position: absolute;
+    left: 94%;
+    top: 60%;
+    border-radius: 16px;
+   
+}
+#ico-section .all-ico{
+    text-align: center;
+   
+}
+#ico-section .all-ico i{
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#ico-section .all-ico i:first-child{
+    margin-top: 0%;
+}
